@@ -1,0 +1,49 @@
+/**
+ * OpenMIA Custom CSS
+ *
+ * This file is loaded on every page via mkdocs.yml `extra_css`.
+ * Use it for brand overrides, demo component styles, etc.
+ */
+
+/* ── Brand color overrides ─────────────────────────── */
+:root {
+  --md-primary-fg-color: #4f46e5;        /* Indigo 600 */
+  --md-primary-fg-color--light: #818cf8; /* Indigo 400 */
+  --md-primary-fg-color--dark: #3730a3;  /* Indigo 800 */
+  --md-accent-fg-color: #7c3aed;        /* Violet 600 */
+}
+
+/* ── Smooth page transitions ───────────────────────── */
+.md-main__inner {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Code block enhancements ───────────────────────── */
+.highlight code {
+  font-size: 0.85rem;
+}
+
+/* ── Demo containers ───────────────────────────────── */
+#demo-chat,
+#demo-video,
+#demo-iframe {
+  transition: box-shadow 0.2s ease;
+}
+
+#demo-chat:hover,
+#demo-video:hover,
+#demo-iframe:hover {
+  box-shadow: 0 4px 24px rgba(79, 70, 229, 0.15);
+}
+
+/* ── Grid cards (Material Insiders fallback) ───────── */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
