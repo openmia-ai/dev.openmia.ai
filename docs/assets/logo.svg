@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 -2 7 5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 3.000 1.854 A 3 3 0 0 0 6.000 -1.146 A 1.854 1.854 0 0 0 7.854 0.708 A 1.146 1.146 0 0 0 6.708 1.854 A 0.708 0.708 0 0 0 6.000 1.146 A 0.438 0.438 0 0 0 6.438 0.708 A 0.27 0.27 0 0 0 6.708 0.978" stroke-width="0.3" stroke="#ffffff"/>
+  <path d="M 2.800 1.730 A 2.8 2.8 0 0 0 5.600 -1.070 A 1.73 1.73 0 0 0 7.330 0.660 A 1.07 1.07 0 0 0 6.260 1.730 A 0.66 0.66 0 0 0 5.600 1.070" stroke-width="0.15" stroke="#ffffff" opacity="0.6"/>
+</svg>

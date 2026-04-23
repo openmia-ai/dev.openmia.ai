@@ -3,8 +3,8 @@ site_url: https://dev.openmia.ai
 site_description: Developer documentation for the OpenMIA platform — architecture, API reference, and interactive demos.
 site_author: OpenMIA Team
 
-repo_name: openmia-docs
-# repo_url: https://github.com/<your-username>/dev.openmia.ai  # ← Update with your GitHub repo URL
+repo_name: dev.openmia.ai
+repo_url: https://github.com/openmia-ai/dev.openmia.ai
 
 theme:
   name: material
@@ -24,6 +24,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   font:
     text: Inter
     code: JetBrains Mono
