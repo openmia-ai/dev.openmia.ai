@@ -35,9 +35,6 @@ jobs:
       - name: Build site
         run: mkdocs build --strict
 
-      - name: Copy CNAME to build output
-        run: cp CNAME site/CNAME
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
